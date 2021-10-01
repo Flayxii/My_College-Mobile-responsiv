@@ -121,3 +121,25 @@ header{
 #rose p{
     padding: .5em 0;
 }
+#volley{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#volley img{
+    height: 100%;
+    width: 50%;
+    
+}
+#volley p{
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    padding: 0 1em;
+
+}
+#volley a{
+    color: tomato;
+}
