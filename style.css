@@ -19,7 +19,7 @@ header{
     max-height: 825px;
     position: relative;
     display: block;
-    background-image: url(/assets/img/university-1100.jpg);
+    background-image: url(./assets/img/university-1100.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
