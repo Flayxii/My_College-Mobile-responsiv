@@ -195,9 +195,9 @@ footer p{
         justify-content: center;
     }
     #nav li{
-        background-color: #5d5da0;
+        background-color: #393535;
         text-align: center;
-        margin: .5em 0 ;
+        margin: .2em 0 ;
         border: none;
     }
     #nav li:hover{
@@ -205,7 +205,7 @@ footer p{
     }
     #nav li a{
         color: white;
-        
+        font-style: italic;
     }
     #logo_sect{
         margin-top: 45%;
