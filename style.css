@@ -143,3 +143,34 @@ header{
 #volley a{
     color: tomato;
 }
+footer{
+    width: 100%;
+}
+footer ul{
+    background-color: #5d5da0;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    list-style: none;  
+}
+footer li{
+    padding: 1em 0;
+    padding: .5em;
+    border-left: solid black 1px;
+}
+#leftborder{
+    border: none;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+footer span{
+    font-size: pt;
+}
+footer li:hover{
+    background-color: turquoise;
+}
+footer p{
+    text-align: center;
+}
