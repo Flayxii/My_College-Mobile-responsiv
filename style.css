@@ -124,7 +124,7 @@ header{
     padding: .5em 0;
 }
 #volley{
-    height: max-content;
+    height: 25vh;
     width: 100%;
     display: flex;
     align-items: center;
