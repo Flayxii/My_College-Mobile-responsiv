@@ -43,6 +43,8 @@ header{
 #nav li{
     list-style: none;
     text-decoration: none;
+    border-right: solid black 1px;
+    padding: .5em .5em;
 }
 #nav li span{
     padding: 0 .5em;
@@ -53,7 +55,7 @@ header{
     text-decoration: none;
     color: black;
 }
-#nav li a:hover{
+#nav li:hover{
     background-color: white;
 }
 
@@ -122,13 +124,14 @@ header{
     padding: .5em 0;
 }
 #volley{
-    height: 40vh;
+    height: max-content;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #volley img{
+
     height: 100%;
     width: 50%;
     
@@ -147,13 +150,15 @@ footer{
     width: 100%;
 }
 footer ul{
-    background-color: #5d5da0;
+
     width: 100%;
     display: flex; 
     justify-content: center;
     list-style: none;  
+    background-color: #5d5da0;
 }
 footer li{
+    background-color: #5d5da0;
     padding: 1em 0;
     padding: .5em;
     border-left: solid black 1px;
@@ -173,4 +178,78 @@ footer li:hover{
 }
 footer p{
     text-align: center;
+}
+@media screen and (max-width: 415px) {
+    header{
+        background-position: center;
+        height: max-content;
+    }
+    header ul{
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+    }
+    #nav{
+        justify-content: center;
+    }
+    #nav li{
+        background-color: #5d5da0;
+        text-align: center;
+        margin: .5em 0 ;
+        border: none;
+    }
+    #nav li:hover{
+        background-color: turquoise;
+    }
+    #nav li a{
+        color: white;
+        
+    }
+    #logo_sect{
+        margin-top: 45%;
+        flex-direction: column;
+        height: max-content;
+    }
+    #logos{
+        height: 50%;
+        width: 100%;
+    }
+    #para{
+        margin: 1em 0 .5em 0;
+        height: 50%;
+        width: 100%;
+    }
+    #rose p{
+        margin: 0  auto;
+        text-align: center;
+        max-width: 350px;
+        font-size: 22px;
+    }
+    #tete{
+        flex-direction: column;
+        font-size: 22px;
+        align-items: center;
+    }
+    #volley p{
+        padding: .5em 0;
+    }
+    #volley{
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+    }
+    #volley img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    footer ul{
+        background-color: white;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer li{
+        margin: .4em 0;
+    }
 }
